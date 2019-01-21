@@ -4,3 +4,5 @@ build:
 push: build
 	docker push mnadel/gnu:latest
 
+run: build
+	docker run -it --rm mnadel/gnu:latest
