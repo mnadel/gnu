@@ -6,6 +6,8 @@ RUN apk update && \
         sed \
         gawk \
         coreutils \
+        mandoc \
+        man-pages \
         bash && \
     rm -rf /var/cache/apk/*
 
